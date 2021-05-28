@@ -28,7 +28,7 @@
       "buttons": [
         {
           "user": "m3shine",
-          "repo": "m3shine/gostruct", 
+          "repo": "m3shine/m3shine.github.io", 
           "type": "star",
           "count": true,
           "size": "small"
@@ -39,8 +39,8 @@
       "button": "打赏",
       "alipayText": "支付宝打赏",
       "wechatText": "微信打赏",
-      "alipay": "https://github.com/LiangJunrong/document-library/blob/master/public-repertory/img/seek-reward.jpg?raw=true",
-      "wechat": "https://github.com/LiangJunrong/document-library/blob/master/public-repertory/img/seek-reward.png?raw=true"
+      "alipay": "",
+      "wechat": ""
     },
     "prism": {
       "css": [
