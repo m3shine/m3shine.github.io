@@ -24,6 +24,3 @@
 * [天问](天问/index.md)
     * [星河浩瀚](天问/星系.md)
 
------
-* Last part without title
-

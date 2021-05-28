@@ -1,3 +1,5 @@
+echo "gitbook init"
+gitbook init
 echo "gitbook build"
 gitbook build . docs
 echo "git add ."
