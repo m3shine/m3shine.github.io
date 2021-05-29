@@ -116,7 +116,7 @@ mkdir .czzwallet
 cp czzwallet/sample-czzwallet.conf .czzwallet/czzwallet.conf
 ```
 
-修改配置文件
+#### 修改配置文件
 
 ```
 appdata=~/.czzwallet
@@ -162,7 +162,7 @@ czzctl -u rpcuser -P rpcpass --wallet getnewaddress
 cqwkjuw5w4ltc0wj28u0m7pz6lu88ztm8gd05cv60t
 ```
 
-##### 修改czzd挖矿地址
+#### 修改czzd挖矿地址
 
 ```
 ; Add addresses to pay mined blocks to for CPU mining and potentially in the
@@ -170,7 +170,7 @@ cqwkjuw5w4ltc0wj28u0m7pz6lu88ztm8gd05cv60t
 miningaddr=cqwkjuw5w4ltc0wj28u0m7pz6lu88ztm8gd05cv60t
 ```
 
-修改addpeer
+#### 修改addpeer
 
 
 到目前为止，只是启动了classzz节点，还有其他链的节点需要部署，鉴于硬件设备受限，就不操作了。  
