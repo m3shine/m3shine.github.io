@@ -4,7 +4,8 @@
   "description": "世界，你好！",
   "language": "zh-hans",
   "styles": {
-    "website": "./public-repertory/css/gitbook-configure.css"
+    "website": "./public-repertory/css/gitbook-configure.css",
+    "website": "styles/website.css"
   },
   "collapsible_menu":true,
   "plugins": [
@@ -15,13 +16,15 @@
     "search-pro",
     "-search",
     "-lunr",
-    "expandable-chapters",
+    "expandable-chapters-small",
     "splitter",
     "-sharing",
     "github-buttons",
     "donate",
     "tbfed-pagefooter",
-    "anchor-navigation-ex"
+    "anchor-navigation-ex",
+    "chapter-fold",
+    "pageview-count"
   ],
   "pluginsConfig": {
     "github-buttons": {
@@ -39,8 +42,8 @@
       "button": "打赏",
       "alipayText": "支付宝打赏",
       "wechatText": "微信打赏",
-      "alipay": "",
-      "wechat": ""
+      "alipay": "https://github.com/m3shine/m3shine.github.io/blob/master/zfb.jpeg",
+      "wechat": "https://github.com/m3shine/m3shine.github.io/blob/master/wx.png"
     },
     "prism": {
       "css": [
@@ -51,7 +54,7 @@
       }
     },
     "tbfed-pagefooter": {
-      "copyright":"Copyright &copy chain.io 2019",
+      "copyright":"Copyright &copy m3shine.github.io",
       "modify_label": "该文件修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
