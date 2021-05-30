@@ -1,6 +1,7 @@
 echo "gitbook init"
 gitbook init
 echo "gitbook build"
+rm -rf docs
 gitbook build ./ ./docs
 echo "git add ."
 git add .
