@@ -4,6 +4,6 @@ function gitalkshow(){
   if (sty !== "block") {
     document.getElementById("gitalk-container").style.display = "block"
   }else{
-    document.getElementById("gitalk-container").style.display = "none !important"
+    document.getElementById("gitalk-container").style.display = "none"
   }
 }
