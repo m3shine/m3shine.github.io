@@ -1,7 +1,7 @@
 echo "gitbook init"
 gitbook init
 echo "gitbook build"
-gitbook build . docs
+gitbook build --output=./docs
 echo "git add ."
 git add .
 echo "git commit"

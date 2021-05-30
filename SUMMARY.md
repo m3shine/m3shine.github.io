@@ -4,13 +4,14 @@
 
 -----
 * 技术
-    * [go备忘](go-tec/go备忘.md)
-* 区块链项目价值分析
-    * [classzz](chain/classzz.md)
+    * [go备忘](技术/go备忘.md)
+* 项目
+    * [classzz](项目/classzz.md)
 
 -----
-* 价值
-    * [框架](value/框架.md)
+* 思维
+    * [目标](思维/目标.md)
+        * [框架](思维/框架.md)
 
 -----
 * 纪年
