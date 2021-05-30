@@ -1,11 +1,3 @@
 .gitbook-link {
      display: none !important;
 }
-.gitalk-hide {
-	display: none !important;
-}
-.gitalk-comment{
-	cursor: pointer;
-	color: #008cff;
-	margin-top: 30px;
-}

@@ -32,7 +32,7 @@ module.exports = {
       str += '\n\n<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">'+
       '\n\n<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>'+
       '\n\n<div onclick="gitalkshow()" class="gitalk-comment">评论</div>'+
-      '\n\n<div id="gitalk-container" class="gitalk-hide"></div>'+
+      '\n\n<div id="gitalk-container"></div>'+
       '\n\n<script src="https://m3shine.github.io/assets/gitalk-config.js"></script>'
 
       page.content = page.content + str;

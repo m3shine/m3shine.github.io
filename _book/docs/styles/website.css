@@ -2,7 +2,7 @@
      display: none !important;
 }
 .gitalk-hide {
-	display: none;
+	display: none !important;
 }
 .gitalk-comment{
 	cursor: pointer;
