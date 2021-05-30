@@ -7,4 +7,5 @@ var gitalk = new Gitalk({
   "id": location.pathname,      
   "distractionFreeMode": false  
 });
+
 gitalk.render("gitalk-container");

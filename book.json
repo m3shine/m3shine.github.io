@@ -23,8 +23,7 @@
     "donate",
     "tbfed-pagefooter",
     "anchor-navigation-ex",
-    "chapter-fold",
-    "pageview-count"
+    "chapter-fold"
   ],
   "pluginsConfig": {
     "github-buttons": {
