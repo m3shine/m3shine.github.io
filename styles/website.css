@@ -4,3 +4,16 @@
 .gitbook-donate {
 	display: none !important;
 }
+
+.img_body img{
+	width:50%;
+	margin:20px auto;
+	display:block; 
+}
+.img_body .img_alt{
+	width:50%;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	opacity:0.5;
+}
