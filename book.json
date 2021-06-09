@@ -24,7 +24,7 @@
     "tbfed-pagefooter",
     "anchor-navigation-ex",
     "chapter-fold",
-    "mermaid-newface"
+    "mermaid-flow"
   ],
   "pluginsConfig": {
     "github-buttons": {
@@ -46,9 +46,6 @@
       "wechat": "https://m3shine.github.io/assets/wx.png"
     },
     
-    "mermaid-newface": {
-      "theme": "neutral"
-    },
     
     "prism": {
       "css": [
