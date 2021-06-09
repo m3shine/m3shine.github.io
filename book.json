@@ -24,7 +24,7 @@
     "tbfed-pagefooter",
     "anchor-navigation-ex",
     "chapter-fold",
-    "new-flowchart"
+    "mermaid"
   ],
   "pluginsConfig": {
     "github-buttons": {
