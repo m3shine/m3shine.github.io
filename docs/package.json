@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "gitbook-plugin-flowchart": "^1.1.0",
-    "gitbook-plugin-mermaid": "^0.0.9",
+    "gitbook-plugin-mermaid-newface": "^4.0.2",
     "gitbook-plugin-toggle-chapters": "^0.0.3"
   }
 }

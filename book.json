@@ -24,7 +24,7 @@
     "tbfed-pagefooter",
     "anchor-navigation-ex",
     "chapter-fold",
-    "mermaid"
+    "mermaid-newface"
   ],
   "pluginsConfig": {
     "github-buttons": {
@@ -45,6 +45,11 @@
       "alipay": "https://m3shine.github.io/assets/zfb.jpeg",
       "wechat": "https://m3shine.github.io/assets/wx.png"
     },
+    
+    "mermaid-newface": {
+      "theme": "neutral"
+    },
+    
     "prism": {
       "css": [
         "prismjs/themes/prism-solarizedlight.css"
