@@ -4,7 +4,6 @@
   "description": "世界，你好！",
   "language": "zh-hans",
   "styles": {
-    "gitbook": "./public-repertory/css/gitbook-configure.css",
     "website": "styles/website.css"
   },
   "collapsible_menu":true,
