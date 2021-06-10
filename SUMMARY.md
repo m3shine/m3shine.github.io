@@ -1,10 +1,10 @@
 # Summary
 
-* [Introduction](README.md)
+* [认知](README.md)
 
 -----
 * 技术
-    * [go备忘](技术/go备忘.md)
+    * [数据结构与算法之思维框架](技术/数据结构与算法之思维框架.md)
 * 项目
     * [classzz](项目/classzz.md)
 

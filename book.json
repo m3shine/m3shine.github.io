@@ -54,12 +54,12 @@
       }
     },
     "tbfed-pagefooter": {
-      "copyright":"Copyright &copy m3shine.github.io",
+      "copyright":"转载截图请注明 &copy m3shine.github.io",
       "modify_label": "该文件修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "anchor-navigation-ex": {
-      "showLevel": false
+      "showLevel": true
     }
   }
 }
