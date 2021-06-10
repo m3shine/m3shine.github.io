@@ -15,6 +15,9 @@
   .page-footer{
     font-size: 12px !important;
   }
+  body{
+    font-size:12px;
+  }
 </style>
 
 
