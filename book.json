@@ -6,7 +6,7 @@
   "styles": {
     "website": "styles/website.css"
   },
-  "collapsible_menu":true,
+  "collapsible_menu":false,
   "plugins": [
     "theme-comscore",
     "-highlight",
@@ -59,7 +59,7 @@
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "anchor-navigation-ex": {
-      "showLevel": true
+      "showLevel": false
     }
   }
 }
