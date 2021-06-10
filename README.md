@@ -1,3 +1,19 @@
+<style>
+  .core foreignObject{
+    color:#ffffff;
+  }
+  .edgeLabel{
+    background-color:transparent;
+  }
+  .node rect, .node circle, .node ellipse, .node polygon{
+    fill:url(#grad1);
+    stroke: transparent;
+  }
+  .gradient{
+    height: 0;
+  }
+</style>
+
 
 关于我、世界及意义。
 
@@ -11,9 +27,8 @@
 
 人只能活在自己的意识中，认知是外在在内心的映射。
 
-我勾勒的认知模型，在于抵御红色负能流的侵蚀，强化绿色能流的正向反馈。  
+我勾勒的认知模型，在于抵御红色负能量的侵蚀，强化绿色能量流的正向反馈。  
 
-本博客着重记录的是，系统性思考到思维拓展这段路径的过程及结果，结果体现为对事物结构、解决问题的方法、思维模型、思维框架及灵活调整的思维架构的学习及运用。
 
 
 ```mermaid
@@ -24,10 +39,10 @@
        o1[烟酒食色游戏] 
     end
     subgraph 无聊消耗系列 
-       o2[吸睛新闻视频乱聊] 
+       o2[新闻视频闲聊] 
     end
     subgraph 束缚干扰系列 
-       o3[亲朋同事琐事] 
+       o3[生活工作琐事] 
     end
    
       
@@ -56,10 +71,13 @@
   classDef core fill:green,color:#ffffff
   class A,C1,o1,o2,o3 nagtive
   class B,E,F,G,H,I positive
+  class C gradient
   class D core
 
-	 
 ```
+
+
+本博客着重记录的是，系统性思考到思维拓展这段路径的过程及结果，体现为对事物结构的原理分析、解决问题的方法运用、思维模型设计、思维框架搭建及思维架构的灵活重组。
 
 #### 注意力
 注意力是唯一可交换的资本  
@@ -73,4 +91,15 @@
 #### 模型  
 #### 框架  
 #### 架构  
+
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="gradient">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffadbc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a2fba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+</svg>
 
