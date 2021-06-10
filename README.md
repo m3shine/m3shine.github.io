@@ -15,9 +15,6 @@
   .page-footer{
     font-size: 12px !important;
   }
-  .book-body{
-    font-size:12px;
-  }
 </style>
 
 
