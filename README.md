@@ -5,7 +5,7 @@
   .edgeLabel{
     background-color:transparent;
   }
-  .node rect, .node circle, .node ellipse, .node polygon{
+  .node polygon{
     fill:url(#grad1);
     stroke: transparent;
   }
@@ -14,9 +14,6 @@
   }
   .page-footer{
     font-size: 12px !important;
-  }
-  .book.font-size-2 .book-body .page-inner section{
-    font-size:1.4em !important;
   }
 </style>
 
