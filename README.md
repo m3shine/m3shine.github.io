@@ -9,7 +9,7 @@
 
 ---
 
-人只能活在自己的世界中，认知是外在在内心的映射。
+人只能活在自己的意识中，认知是外在在内心的映射。
 
 我勾勒的认知模型，在于抵御红色负能流的侵蚀，强化绿色能流的正向反馈。  
 
@@ -17,39 +17,48 @@
 
 
 ```mermaid
-flowchart TB
 
-  subgraph one [诱惑成瘾系列]
- 	o1[\烟酒食色游戏\]
-  end 
-  
-  subgraph two [无聊消耗系列]
-  o2[\吸睛新闻视频乱聊\]
-  end
-  subgraph three [束缚干扰系列]
-  o3[\亲朋同事琐事\]
-  end
+  graph TB
+
+    subgraph 诱惑成瘾系列 
+       o1[烟酒食色游戏] 
+    end
+    subgraph 无聊消耗系列 
+       o2[吸睛新闻视频乱聊] 
+    end
+    subgraph 束缚干扰系列 
+       o3[亲朋同事琐事] 
+    end
+   
+      
+    o1 -->|恶习不可戒除,只能被替代|A
+    o2 -->|寻找替代|A
+    o3 -->|时间四象限法则|A
     
-  one --> |恶习不可戒除,只能被替代|A
-  two --> |寻找替代|A
-  three --> |时间四象限法则|A
-  
-  A[环境刺激] -->B[元认知过滤]-->C{信息半衰期}
-  C-->|短| C1[避免精力消耗]
-  C-->|长|D[注意力聚焦]-->|专注是人类所有成功和努力的关键|E[心流]-->F[系统性思考]-->|完成系统性调查的能力是最能拓展思维的力量|G[思维拓展]
+    A[环境刺激]-->B[元认知过滤] 
+    B-->C{信息半衰期}
+    C-->|短| C1[避免精力消耗]
+    C-->|长|D[注意力聚焦]
+    D-->|专注是人类所有成功和努力的关键|E[心流]
+    E-->F[系统性思考]
+    F-->|完成系统性调查的能力是最能拓展思维的力量|G[思维拓展]
 
-  B-->H[破除限制性信念]-->|拥抱成长性思维模式|D
-  B-->I[培养新习惯替代旧恶习]-->D
-  
-  G-->|主观规划设计|A
-  
+    B-->H[破除限制性信念]
+    H-->|拥抱成长性思维模式|D
+    B-->I[培养新习惯替代旧恶习]
+    I-->D
+    
+    G-->|主观规划设计|A
+
   
   classDef nagtive fill:#fdcfca,stroke:#fa8072
   classDef positive fill:#e3fbe3,stroke:#84fa84
+  classDef core fill:green,color:#ffffff
   class A,C1,o1,o2,o3 nagtive
   class B,E,F,G,H,I positive
-  style D fill:green,color:white
-    	 
+  class D core
+
+	 
 ```
 
 #### 注意力
@@ -64,5 +73,4 @@ flowchart TB
 #### 模型  
 #### 框架  
 #### 架构  
-
 

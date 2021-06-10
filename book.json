@@ -4,13 +4,12 @@
   "description": "世界，你好！",
   "language": "zh-hans",
   "styles": {
-    "website": "./public-repertory/css/gitbook-configure.css",
+    "gitbook": "./public-repertory/css/gitbook-configure.css",
     "website": "styles/website.css"
   },
   "collapsible_menu":true,
   "plugins": [
     "theme-comscore",
-    "prism",
     "-highlight",
     "copy-code-button",
     "search-pro",
@@ -24,7 +23,7 @@
     "tbfed-pagefooter",
     "anchor-navigation-ex",
     "chapter-fold",
-    "mermaid-flow"
+    "mermaid-gb3"
   ],
   "pluginsConfig": {
     "github-buttons": {
