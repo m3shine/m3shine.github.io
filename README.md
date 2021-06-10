@@ -12,6 +12,9 @@
   .gradient{
     height: 0;
   }
+  .page-footer{
+    font-size: 12px !important;
+  }
 </style>
 
 
