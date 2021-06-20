@@ -8,8 +8,10 @@
   },
   "collapsible_menu":false,
   "plugins": [
+    "katex-ng",
     "theme-comscore",
     "-highlight",
+    "prism",
     "copy-code-button",
     "search-pro",
     "-search",

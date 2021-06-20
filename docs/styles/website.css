@@ -20,3 +20,8 @@
 .book.font-size-2 .book-body .page-inner section{
 	font-size: inherit;
 }
+.katex .mfrac .frac-line {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid;
+}
