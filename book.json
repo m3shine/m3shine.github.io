@@ -1,7 +1,7 @@
 {
-  "title": "晏清Blog",
+  "title": "晏清元空间",
   "author": "chainheader",
-  "description": "世界，你好！",
+  "description": "",
   "language": "zh-hans",
   "styles": {
     "website": "styles/website.css"
@@ -24,7 +24,8 @@
     "tbfed-pagefooter",
     "anchor-navigation-ex",
     "chapter-fold",
-    "mermaid-gb3"
+    "mermaid-gb3",
+    "simple-mind-map"
   ],
   "pluginsConfig": {
     "github-buttons": {
@@ -62,6 +63,12 @@
     },
     "anchor-navigation-ex": {
       "showLevel": false
+    },
+    "simple-mind-map": {
+      "type": "markdown",
+      "preset": "colorful",
+      "linkShape": "diagonal",
+      "autoFit": true
     }
   }
 }
