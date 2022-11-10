@@ -1,0 +1,30 @@
+body{
+	font-size: 15px;
+}
+.gitbook-link {
+     display: none !important;
+}
+.gitbook-donate {
+	display: none !important;
+}
+
+.img_body img{
+	width:50%;
+	margin:20px auto;
+	display:block; 
+}
+.img_body .img_alt{
+	width:50%;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	opacity:0.5;
+}
+.book.font-size-2 .book-body .page-inner section{
+	font-size: inherit;
+}
+.katex .mfrac .frac-line {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid;
+}
