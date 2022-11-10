@@ -28,6 +28,11 @@
     "simple-mind-map"
   ],
   "pluginsConfig": {
+    "katex-ng": {
+      "options": {
+        "strict": "unicodeTextInMathMode"
+      }
+    },
     "github-buttons": {
       "buttons": [
         {
